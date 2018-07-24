@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>--Formulário--</title>
+    <link href="stylo.css" rel="stylesheet" media="all" />
+    <script src="script.js"></script>
+ 
+</head>
+<body>
+    <form name="meu_form">
+ 
+        <h1>Entre em contato!</h1>
+ 
+        <p class="nome">
+            <input type="text" id="nomeid" placeholder="nome e sobrenome" required="required" name="nome" />
+            <label for="nome">Nome</label>
+        </p>
+
+        <p class="fone">
+            <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+            <label for="fone">Contato</label>
+ 
+        </p>
+
+        <p>
+            <input type="email" id="emailid" placeholder="fulano@email.com" name="email" />
+            <label for="email">E-mail</label>
+        </p>
+
+        <p>
+            <textarea placeholder="Deixe sua opnião:"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+ 
+    </form>
+</body>
+</html>
